@@ -251,7 +251,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                     MyLog.e("ERROR", "wifi正在打开");
                 } else if (wifiState == WifiManager.WIFI_STATE_DISABLED) {
                     MyLog.e("ERROR", "wifi已经关闭");
-                    autoWifiConnect();
+//                    autoWifiConnect();
                 } else if (wifiState == WifiManager.WIFI_STATE_ENABLED) {
                     MyLog.e("ERROR", "wifi已经打开");
                 } else {
